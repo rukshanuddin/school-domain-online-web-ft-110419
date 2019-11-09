@@ -26,7 +26,8 @@ class School
   def sort
     roster.map do |grade, students|
       roster[grade] = students.sort
-
+      roster
+      binding.pry
 
     end
 
