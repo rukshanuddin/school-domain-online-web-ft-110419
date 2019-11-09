@@ -24,7 +24,7 @@ class School
   def sort
     roster.each do |grade|
       grade.each do |k|
-        k.sort
+        k.sort if k.is_a?
       end
     end
   end
