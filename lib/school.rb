@@ -22,9 +22,8 @@ class School
   end
 
   def sort
-    roster.each do |grade|
-      grade.each do |k|
-        k
+    roster.each do |grade, students|
+      students.sort
       end
     end
   end
