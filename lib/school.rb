@@ -1,3 +1,5 @@
+require "pry"
+
 class School
 
   attr_accessor
@@ -24,7 +26,7 @@ class School
   def sort
     roster.map do |grade, students|
 
-
+      binding.pry
       roster[grade].sort
     end
 
