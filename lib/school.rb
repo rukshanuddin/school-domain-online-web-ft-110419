@@ -28,6 +28,7 @@ class School
 
       binding.pry
       roster[grade].sort
+      roster
     end
 
   end
