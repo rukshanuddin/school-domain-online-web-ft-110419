@@ -25,8 +25,9 @@ class School
     roster.map do |grade, students|
 
       students.sort
+      roster
     end
-    roster
+    
   end
 
 end
